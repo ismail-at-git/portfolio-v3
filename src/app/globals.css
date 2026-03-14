@@ -3,7 +3,8 @@
 @theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-brand: #00ED64;
+  --color-brand: #008f3c;
+  /* Darker, clearly readable green for light mode */
 }
 
 .card-3d {
@@ -59,6 +60,7 @@
     --border: #27272a;
     --input: #27272a;
     --ring: #d4d4d8;
+    --color-brand: #00ED64;
   }
 }
 
