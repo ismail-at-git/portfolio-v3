@@ -30,7 +30,7 @@ export function About() {
                             <div>
                                 <div className="flex justify-between items-start mb-1">
                                     <h4 className="font-medium text-foreground">Bachelor of Engineering in Information Science</h4>
-                                    <span className="text-sm text-blue-500 font-medium">Sep &apos;22 — Present</span>
+                                    <span className="text-sm text-brand font-medium">Sep &apos;22 — Present</span>
                                 </div>
                                 <p className="text-muted-foreground">Rao Bahadur Y. Mahabaleswarappa Engineering College, Ballari</p>
                                 <p className="text-sm mt-1 font-medium bg-background inline-block px-2 py-1 rounded border border-border">GPA: 7.2</p>

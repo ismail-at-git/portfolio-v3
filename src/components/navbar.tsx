@@ -9,14 +9,14 @@ export function Navbar() {
         <header className="fixed top-0 w-full z-50 bg-background/80 backdrop-blur-md border-b border-border">
             <div className="container mx-auto px-4 h-16 flex items-center justify-between">
                 <Link href="/" className="text-xl font-bold tracking-tight">
-                    Ismail<span className="text-blue-500">.</span>
+                    Ismail<span className="text-brand">.</span>
                 </Link>
                 <nav className="hidden md:flex gap-6 text-sm font-medium">
-                    <Link href="#about" className="hover:text-blue-500 transition-colors">About</Link>
-                    <Link href="#skills" className="hover:text-blue-500 transition-colors">Skills</Link>
-                    <Link href="#experience" className="hover:text-blue-500 transition-colors">Experience</Link>
-                    <Link href="#projects" className="hover:text-blue-500 transition-colors">Projects</Link>
-                    <Link href="#contact" className="hover:text-blue-500 transition-colors">Contact</Link>
+                    <Link href="#about" className="hover:text-brand transition-colors">About</Link>
+                    <Link href="#skills" className="hover:text-brand transition-colors">Skills</Link>
+                    <Link href="#experience" className="hover:text-brand transition-colors">Experience</Link>
+                    <Link href="#projects" className="hover:text-brand transition-colors">Projects</Link>
+                    <Link href="#contact" className="hover:text-brand transition-colors">Contact</Link>
                 </nav>
                 <div className="flex items-center gap-4">
                     <div className="relative w-9 h-9 flex items-center justify-center">

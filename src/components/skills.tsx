@@ -49,7 +49,7 @@ export function Skills() {
                                 {group.skills.map((skill) => (
                                     <span
                                         key={skill}
-                                        className="inline-flex items-center rounded-md bg-blue-500/10 px-2 py-1 text-sm font-medium text-blue-500 ring-1 ring-inset ring-blue-500/20"
+                                        className="inline-flex items-center rounded-md bg-brand/10 px-2 py-1 text-sm font-medium text-brand ring-1 ring-inset ring-brand/20"
                                     >
                                         {skill}
                                     </span>

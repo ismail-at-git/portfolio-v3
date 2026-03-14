@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin, MessageCircle } from "lucide-react";
 
 export function Contact() {
     return (
@@ -21,25 +21,25 @@ export function Contact() {
                 <div className="grid sm:grid-cols-3 gap-6 mb-12">
                     <a
                         href="mailto:ismail.ise.rymec@gmail.com"
-                        className="flex flex-col items-center justify-center p-6 bg-secondary/30 rounded-2xl hover:bg-blue-500 hover:text-white transition-all transform hover:scale-105 group border border-border"
+                        className="flex flex-col items-center justify-center p-6 bg-secondary/30 rounded-2xl hover:bg-brand hover:text-white transition-all transform hover:scale-105 group border border-border"
                     >
-                        <div className="w-12 h-12 bg-blue-500/10 text-blue-500 group-hover:bg-white/20 group-hover:text-white rounded-full flex items-center justify-center mb-4 transition-colors">
+                        <div className="w-12 h-12 bg-brand/10 text-brand group-hover:bg-white/20 group-hover:text-white rounded-full flex items-center justify-center mb-4 transition-colors">
                             <Mail className="w-6 h-6" />
                         </div>
                         <h3 className="font-semibold text-foreground group-hover:text-white mb-2">Email</h3>
                         <span className="text-sm text-muted-foreground group-hover:text-white/80 select-all">ismail.ise.rymec@gmail.com</span>
                     </a>
 
-                    <div className="flex flex-col items-center justify-center p-6 bg-secondary/30 rounded-2xl border border-border">
-                        <div className="w-12 h-12 bg-blue-500/10 text-blue-500 rounded-full flex items-center justify-center mb-4">
-                            <Phone className="w-6 h-6" />
+                    <a href="https://wa.me/917975971565" target="_blank" rel="noreferrer" className="flex flex-col items-center justify-center p-6 bg-secondary/30 rounded-2xl hover:bg-brand hover:text-white transition-all transform hover:scale-105 group border border-border">
+                        <div className="w-12 h-12 bg-brand/10 text-brand group-hover:bg-white/20 group-hover:text-white rounded-full flex items-center justify-center mb-4 transition-colors">
+                            <MessageCircle className="w-6 h-6" />
                         </div>
-                        <h3 className="font-semibold text-foreground mb-2">Phone</h3>
-                        <span className="text-sm text-muted-foreground">+91 7975971565</span>
-                    </div>
+                        <h3 className="font-semibold text-foreground group-hover:text-white mb-2">WhatsApp</h3>
+                        <span className="text-sm text-muted-foreground group-hover:text-white/80">+91 7975971565</span>
+                    </a>
 
                     <div className="flex flex-col items-center justify-center p-6 bg-secondary/30 rounded-2xl border border-border">
-                        <div className="w-12 h-12 bg-blue-500/10 text-blue-500 rounded-full flex items-center justify-center mb-4">
+                        <div className="w-12 h-12 bg-brand/10 text-brand rounded-full flex items-center justify-center mb-4">
                             <MapPin className="w-6 h-6" />
                         </div>
                         <h3 className="font-semibold text-foreground mb-2">Location</h3>
